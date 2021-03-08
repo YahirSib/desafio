@@ -1,0 +1,125 @@
+header{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url("../img/cabeza1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .titulo{
+    font-size: 4em;
+}
+.subtitulo{
+    font-size: 2em;
+    font-weight: 300;
+}
+.boton1{
+    margin-top: 2%;
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*galeria*/
+
+.box{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+.minbox:nth-child(2n-1){
+    border: rgba(245,117,241,1) 2px solid ;
+    margin: 5px;
+}
+.minbox:nth-child(2n-1):hover{
+    background-color: rgba(245,117,241,1) ;
+    transition: ease-in 0.5s all;
+    box-shadow: 0px 0px 24px -1px rgba(245,117,241,1);
+}
+.minbox:nth-child(2n):hover{
+    background-color: rgba(115,19,115,1);
+    transition: ease-in 0.5s all;
+    box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+}
+
+.minbox:nth-child(2n){
+    border: rgba(115,19,115,1) 2px solid;
+    margin: 5px;
+}
+
+
+.minbox{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minbox img{
+    width: 90%;
+    height: 90%;
+}
+
+
+footer{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70,15,102);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.icon-{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div.redes div.icon- img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+}
+footer div.redes div.icon-:first-child  img{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 50%;
+}
+footer div.footer-texto p{
+    color: white;
+    width: 100vw;
+    text-align: center;
+}

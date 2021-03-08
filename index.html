@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <script>
+            $(document).ready(function(){
+                $('.hamburger').click(function() {
+                $('.hamburger').toggleClass('is-active');
+                });
+            });
+        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;1,200;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,700;0,800;1,300;1,700&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="header">
+        <input type="checkbox" id="btn-menu">
+          <label for="btn-menu">
+        <div class="ham-box">
+          <div class="hamburger">
+              <div class="_layer -top"></div>
+              <div class="_layer -mid"></div>
+              <div class="_layer -bottom"></div>
+          </div>
+        </div>
+        </label>
+        <div class="boton-box">
+            <a href="productos.html" class="boton2">Cotizar</a>
+        </div>
+        <nav id="menu">
+          <ul>
+            <a class="menA" href="index.html"><li>Inicio</li></a>
+            <a class="menA" href="productos.html"><li>Productos</li></a>
+            <a class="menA" href="nosotros.html"><li>Sobre Nosotros</li></a>
+            <a class="menA" href="galeria.html"><li>Galeria</li></a>
+          </ul>
+        </nav>
+    </div>
+    <header id="cabeza">
+        <div class="textos">
+            <h1 class="titulo"> Salas Innova</h1>
+            <h3 class="subtitulo">La mejor opcion en muebleria</h3>
+            <a href="nosotros.html" class="boton1">Contáctanos</a>
+        </div>
+    </header>
+    <section class="box">
+        <h1 class="tit"> <b> Salas Innova El Salvador </b> </h1>
+        <article class="subox">
+            <div class="card-">
+                <div class="boxIMG">
+                    <img class="icon" src="img/icon1.png" alt="">
+                </div>
+                <h3 class="titSUB">¡Tenemos mucha variedad de sillones!</h3>
+                <p>Si estás pensando en cambiar de sofá o de sillón, te enfrentas a una tarea emocionante, pero nada fácil. Elegir uno que encaje con tus gustos y necesidades y que además sea cómodo y bonito requiere de muchos paseos por tiendas de muebles y catálogos online.  </p>
+            </div>
+            <div class="card-">
+                <div class="boxIMG">
+                    <img class="icon" src="img/icono.png" alt="">
+                </div>
+                <h3 class="titSUB">¿Somos una empresa de calidad?</h3>
+                <p>Sí, ya que contamos con una excelente calidad en nuestros materiales, así como una amplia experiencia en la creación de muebles y el personal apto para el cargo, somos una empresa certificada, somos éticos y honestos. Actuamos con integridad ya que creemos que es muy importante para la calidad. </p>
+            </div>
+            <div class="card-">
+                <div class="boxIMG">
+                    <img class="icon" src="img/icon3.png" alt="">
+                </div>
+                <h3 class="titSUB">¿Porque confiar en Salas Innova?</h3>
+                <p>Por qué somos una empresa que se especializa en el diseño y creación de muebles de la más alta calidad, ya que ofrecemos un excelente producto, con precios muy accesibles, nuestro compromiso es con nuestros clientes en gestión de nuestra calidad.  </p>
+            </div>
+        </article>
+    </section>
+
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <div class="slider__img" id="slide1" >
+                    <img src="img/ofer10.png" alt="" class="oferta">
+                    <h1 class="name_sala">Sala Valeria</h1>
+                    <h2 class="precio_sala">Antes: $400</h2> <h2 class="precio_salaA">Ahora: $360</h2>
+                    <a href="" class="boton2">Cotizar</a>
+                </div>    
+            </div>
+            <div class="slider__section">
+                <div class="slider__img" id="slide2" >
+                    <img src="img/ofer15.png" alt="" class="oferta">
+                    <h1 class="name_sala">Sala María</h1>
+                    <h2 class="precio_sala">Antes: $315</h2> <h2 class="precio_salaA">Ahora: $267</h2>
+                    <a href="" class="boton2">Cotizar</a>
+                </div>  
+            </div>
+            <div class="slider__section">
+                <div class="slider__img" id="slide3" >
+                    <img src="img/ofer5.png" alt="" class="oferta">
+                    <h1 class="name_sala">Sala Nayeli</h1>
+                    <h2 class="precio_sala">Antes: $230</h2> <h2 class="precio_salaA">Ahora: $219</h2>
+                    <a href="" class="boton2">Cotizar</a>
+                </div>  
+            </div>
+            <div class="slider__section">
+                <div class="slider__img" id="slide4" >
+                    <img src="img/ofer20.png" alt="" class="oferta">
+                    <h1 class="name_sala">Sala Nicole</h1>
+                    <h2 class="precio_sala">Antes: $470</h2> <h2 class="precio_salaA">Ahora: $376</h2>
+                    <a href="productos.html" class="boton2">Cotizar</a>
+                </div>  
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
+    <script src="js/slider.js"></script>
+
+    <section class="box-coti">   
+        <article class="text-coti">
+            <p>Cotiza uno de nuestros <span> muebles </span> <br>  de la mejor calidad</p>
+            <a href="productos.html" class="boton3">Cotizar</a>
+        </article>
+        <article class="box-img">
+            <img src="img/sofa1.png" alt="" class="imgXD">
+        </article>
+    </section>
+
+    <footer>
+        <div class="redes">
+            <div class="icon-"><img src="img/red1.png" alt=""></div>
+            <div class="icon-"><img src="img/red2.png" alt=""></div>
+            <div class="icon-"><img src="img/red3.png" alt=""></div>
+            <div class="icon-"><img src="img/red4.png" alt=""></div>
+        </div>
+        <div class="footer-texto">
+            <p>
+                Salas Innova SV 2021 || Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

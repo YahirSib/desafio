@@ -1,0 +1,424 @@
+
+/*Enbezado */
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/cabeza2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .titulo{
+    font-size: 4em;
+}
+.subtitulo{
+    font-size: 2em;
+    font-weight: 300;
+}
+.boton1{
+    margin-top: 2%;
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*productos */
+
+div.prod{
+    width: 315px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+div.prod h3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 25, 164) ;
+    color: white;
+}
+
+div.prod img{
+    width: 95%;
+    height: 250px;
+    margin: 10px 0px ;
+}
+div.botXD:hover{
+    background-color: rgb(168, 25, 164);
+    transition: 0.5s ease all ;
+    color: white;
+}
+
+.bot{
+    padding:5px 10px;
+    border-radius: 16px;
+    background-color: white;
+    border: 2px solid rgb(70,15,102);
+    color: black;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Jost', sans-serif;
+    transition: 0.5s ease all;
+}
+
+
+div#productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botXD{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+section#container h1{
+    font-size: 2em;
+    color: rgb(70,15,102);
+    font-style: italic;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+/* tabla */
+
+div#kart{
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#kart h1{
+    height: 100%;
+    width: 90%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(70,15,102);
+}
+
+table{
+    width: 85%;
+    height: 100%;
+}
+thead{
+    background-color: rgb(70,15,102);
+    color: white;
+    text-align: center;
+}
+td{
+    padding: 10px;
+    text-align: center;
+ }
+ .t{
+     padding: 0px 10px;
+ }
+
+ .mP1{
+     background-color: rgb(70,15,102);
+     color: white;
+     padding: 5px 10px;
+     margin: 0px 20px;
+     border: solid rgb(70,15,102) 1px;
+     border-radius: 10px;
+     font-family: 'Jost', sans-serif;
+     width: 30px;
+ }
+ .mP1:hover{
+     background-color: white;
+     color: rgb(168, 25, 164);
+     transition: 0.2s all ease-in;
+     border: solid rgb(70,15,102) 1px;
+ }
+
+ .mP2{
+    background-color: rgb(168, 25, 164);
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border: solid rgb(168, 25, 164) 1px;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    width: 30px;
+ }
+ .mP2:hover{
+    background-color: white;
+    color: rgb(70,15,102) ;
+    transition: 0.2s all ease-in;
+    border: solid rgb(168, 25, 164) 1px;
+}
+.mP3{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border: solid red 1px;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    width: 30px;
+}
+.mP3:hover{
+    background-color: white;
+    color: red ;
+    transition: 0.2s all ease-in;
+    border: solid red 1px;
+}
+.mP4{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border: solid green 1px;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+}
+.mP4:hover{
+    background-color: white;
+    color: green ;
+    transition: 0.2s all ease-in;
+    border: solid green 1px;
+}
+
+footer{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70,15,102);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.icon-{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div.redes div.icon- img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+}
+footer div.redes div.icon-:first-child  img{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 50%;
+}
+footer div.footer-texto p{
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+
+#final1{
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(111,3,128,1);
+    background: -moz-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(111,3,128,1)), color-stop(100%, rgba(240,91,176,1)));
+    background: -webkit-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: linear-gradient(to right, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f0380', endColorstr='#f05bb0', GradientType=1 );
+}
+
+section#final1 h1{
+    margin: 20px;
+    border-bottom: solid white 2px;
+    color: white;
+    padding: 0px 30%;
+    font-size: 2em;
+}
+
+section#final1 p{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+section#final1 div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 27%;
+    margin: 10px;
+}
+
+section#final1 div label{
+    color: white;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+section#final1 div input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid white;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+section#final1 div input:focus{
+    border: none;
+    border-bottom: 1.5px solid rgb(243, 153, 204);
+}
+
+section#final1 button, section#final3 div a{
+    margin: 20px;
+    padding: 5px 15px;
+    background-color: rgb(243, 153, 204);
+    color: rgba(111,3,128,1);
+    border: 2px solid rgb(243, 153, 204);
+    border-radius: 16px;
+    font-family: 'Jost', sans-serif;
+}
+
+section#final1 button:hover, section#final3 div a:hover{
+    background-color: white;
+    color: rgb(70,15,102);
+    border: 2px solid rgb(70,15,102);
+    transition: 0.2s all ease;
+}
+
+#final3{
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(111,3,128,1);
+    background: -moz-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(111,3,128,1)), color-stop(100%, rgba(240,91,176,1)));
+    background: -webkit-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    background: linear-gradient(to right, rgba(111,3,128,1) 0%, rgba(240,91,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f0380', endColorstr='#f05bb0', GradientType=1 );
+}
+
+section#final3 h1{
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid white 2px;
+    color: white;
+    padding: 0px 3%;
+    font-size: 2em;
+}
+
+section#final3 div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+section#final3 p{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#final2{
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f3;
+}
+
+@media only screen and (max-width: 590px) {
+    .mP1{
+        margin: 0%;
+        padding: 0%;
+        width: 15px;
+    }
+    .mP2{
+        padding: 0%;
+        margin: 0px 5px;
+        width: 15px;
+    }
+    .mP3{
+        margin: 0%;
+        padding: 0%;
+        width: 25px;
+    }
+    .mP4{
+        padding: 2px 5px;
+        margin: 0px 5px;
+    }
+    td{
+        margin: 0%;
+        padding: 2px 3px;
+    }
+}

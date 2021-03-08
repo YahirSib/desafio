@@ -1,0 +1,316 @@
+header{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url("../img/cabeza1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .titulo{
+    font-size: 4em;
+}
+.subtitulo{
+    font-size: 2em;
+    font-weight: 300;
+}
+.boton1{
+    margin-top: 2%;
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*Parte Items*/
+.box{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+.subox{
+    display: flex;
+    position: relative;
+    min-height: auto;
+    min-width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+}
+.card-{
+    display: flex;
+    width: 310px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    margin: 2%;
+    
+}
+.card-:hover{
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+-moz-box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+transition: ease 0.4s ;
+}
+.boxIMG{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(245,117,241,1);
+background: -moz-linear-gradient(top, rgba(245,117,241,1) 0%, rgba(70,15,102,0.5) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,117,241,1)), color-stop(100%, rgba(70,15,102,0.5)));
+background: -webkit-linear-gradient(top, rgba(245,117,241,1) 0%, rgba(70,15,102,0.5) 100%);
+background: -o-linear-gradient(top, rgba(245,117,241,1) 0%, rgba(70,15,102,0.5) 100%);
+background: -ms-linear-gradient(top, rgba(245,117,241,1) 0%, rgba(70,15,102,0.5) 100%);
+background: linear-gradient(to bottom, rgba(245,117,241,1) 0%, rgba(70,15,102,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f575f1', endColorstr='#460f66', GradientType=0 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.tit{
+    font-size: 2.5em;
+    color: rgba(70,15,102,1);
+    text-align: center;
+}
+.titSUB{
+    font-style: oblique;
+}
+p{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    padding: 1.5%;
+}
+
+/*Slider*/
+
+.container-slider{
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: auto;
+    overflow: hidden; 
+    position: relative;
+}
+.slider{
+    display: flex;
+    width: 400%;
+    height: 100vh; 
+    margin-left: -100%;
+}
+.slider__section{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10% 20%;
+}
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider__btn:hover{
+    background: #fff;
+}
+.slider__btn--left{
+    left: 20px;
+}
+.slider__btn--right{
+    right: 20px;
+}
+#slide1{
+    background-image: url("../img/sofa1.png");
+    background-position: center;
+    background-size: cover;
+}
+#slide2{
+    background-image: url("../img/sofa2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#slide3{
+    background-image: url("../img/sofa3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#slide4{
+    background-image: url("../img/sofa4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.oferta{
+    width: 200px;
+    height: 150px;
+}
+.name_sala{
+    color: white;
+    font-size: 3em;
+    font-family: 'Titillium Web', sans-serif;
+}
+.precio_sala, .precio_salaA{
+    color: rgba(245,117,241,1);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.precio_sala{
+    text-decoration: line-through;
+    color: rgb(209, 143, 223);
+}
+span{
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.box-coti{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+article.text-coti, article.box-img{
+    max-width: 40%;
+    min-width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgXD{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+-moz-box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+box-shadow: 0px 0px 24px -1px rgba(115,19,115,1);
+transition: ease 0.4s ;
+}
+.boton3{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgba(115,19,115,1);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Jost', sans-serif;
+    transition: ease-in 0.2s all;
+}
+.boton3:hover{
+    border: 1px solid rgba(115,19,115,1);
+    background-color: white;
+    color: rgba(115,19,115,1);
+}
+section.box-coti article.text-coti p{
+    font-size: 1.5em;
+    text-align: left;
+    max-width: 50%;
+    min-width: 350px;
+}
+section.box-coti article.text-coti p span{
+    font-size: 1.8em;
+    color: rgba(115,19,115,1);
+    font-style: italic;
+}
+footer{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70,15,102);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.icon-{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div.redes div.icon- img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+}
+footer div.redes div.icon-:first-child  img{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 50%;
+}
+footer div.footer-texto p{
+    color: white;
+    width: 100vw;
+}
+@media only screen and (max-width: 790px) {
+    .slider__img{
+        text-align: center;
+        padding: 30% 20%;
+    }
+    section.box-coti article.text-coti p{
+        text-align: center;
+        margin-bottom: 4%;
+    }
+}
